@@ -16,12 +16,12 @@ class ReadyMadeCake extends Cake {
      * @param name Cake name
      * @param rate Going Rate per Kg
      */
-    public ReadyMadeCake(String name, double rate) {
+    public ReadyMadeCake(String name, double rate, double weight) {
         super(name, rate);
     }
 
 
-    public void OrderCake(double quantity) {
+    public void ReadyMadeCake(double quantity) {
         this.quantity = quantity;
         numberOfCakes++;
     }
@@ -35,9 +35,9 @@ class ReadyMadeCake extends Cake {
         return numberOfCakes();
     }
 
-    /**  @Override
+      @Override
     public String toString() {
     return "Cake Name = " + name + ", Basic Rate Per kg = " + rate + ", Final Price = " + getPrice() + "";
-    }*/
+    }
 
 }

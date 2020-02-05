@@ -16,7 +16,7 @@ public class OrderCake extends Cake {
      * @param name Cake name
      * @param rate Going Rate per Kg
      */
-    public OrderCake(String name, double rate) {
+    public OrderCake(String name, double rate, double weight) {
         super(name, rate);
     }
 
@@ -41,9 +41,9 @@ public class OrderCake extends Cake {
             return numberOfCakes();
         }
 
-  /**  @Override
+    @Override
     public String toString() {
         return "Cake Name = " + name + ", Basic Rate Per kg = " + rate + ", Final Price = " + getPrice() + "";
-    }*/
+    }
 }
 
