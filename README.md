@@ -11,9 +11,12 @@ There should also be methods for calculating the price and an overridden toStrin
  2.
 Based on the Cake class, create 2 child/descendent classes called OrderCake and ReadyMadeCake with constructors, getters/setters and the additional instance variables and overridden methods.
 
-	                      OrderCake	    ReadyMadeCake
-Additional attribute	  weight(kg)	  quantity
-Price calculation	      rate*weight	  rate*quantity
+
+| 	        	| OrderCake     | ReadymadeCake    |
+| --------------------- |:-------------:| ----------------:|
+| Additional Attribute  | weight(kg)    | quantity         |
+| Price Calculation     | rate * weight | rate * quantity  |
+
 
 3.
 By using these classes, write a console program that will
