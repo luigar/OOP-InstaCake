@@ -13,8 +13,8 @@ class ReadyMadeCake extends Cake {
     private static int numberOfCakes = 0; //Keep track of number of objects created
 
     /**
-     * @param name
-     * @param rate
+     * @param name Cake name
+     * @param rate Going Rate per Kg
      */
     public ReadyMadeCake(String name, double rate) {
         super(name, rate);
@@ -25,9 +25,14 @@ class ReadyMadeCake extends Cake {
         this.quantity = quantity;
         numberOfCakes++;
     }
+
     public double getPrice()
     {
         return rate * quantity;
+    }
+
+    public static int numberOfCakes() {
+        return numberOfCakes();
     }
 
     /**  @Override

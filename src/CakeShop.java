@@ -8,7 +8,7 @@ public class CakeShop {
 
         for (Cake cake : cakes) {
             System.out.println(cakes);
-            System.out.println("Price : "+ cake.getPrice());
+        //    System.out.println("Cakes : "+ Cake.numberOfCakes());
         }
     }
 }
@@ -32,8 +32,8 @@ public class CakeShop {
         }
 
         /**
-         * @param name
-         * @param rate Second constructor that takes values for both params
+         * @param name Cake name
+         * @param rate Going Rate per Kg
          */
         public Cake(String name, double rate) {
 
